@@ -1,0 +1,9 @@
+app_identifier "com.weicilicai.distribute" # The bundle identifier of your app
+apple_id "chenliangliang@weiclicai.com" # # Your Apple email address
+
+team_id "7VV5D378YQ"  # Developer Portal Team ID
+
+#for_lane :testBeta do  # 可在这里对自定义lane修改appId,identifier,也可以在自定义lane里面修改
+#    app_identifier "YourAppId"
+#    apple_id "YourAppleAccount"
+#end
