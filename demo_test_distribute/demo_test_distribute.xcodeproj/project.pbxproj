@@ -627,15 +627,15 @@
 			baseConfigurationReference = 6D48C652DEA67F1BE2D4A78E /* Pods-demo_test_distribute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Jinzao Network Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7VV5D378YQ;
 				INFOPLIST_FILE = demo_test_distribute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weicilicai.distribute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7f615455-a111-41dc-9fba-84149ed39162";
-				PROVISIONING_PROFILE_SPECIFIER = CLLDistributeTestProfile;
+				PROVISIONING_PROFILE = "f8afcf55-1bb5-4c58-a200-1232a0a6ae3d";
+				PROVISIONING_PROFILE_SPECIFIER = CLLDevelopmentTest;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -645,7 +645,8 @@
 			baseConfigurationReference = 5D203933F7F63D106FD16A33 /* Pods-demo_test_distribute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Jinzao Network Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7VV5D378YQ;
 				INFOPLIST_FILE = demo_test_distribute/Info.plist;
