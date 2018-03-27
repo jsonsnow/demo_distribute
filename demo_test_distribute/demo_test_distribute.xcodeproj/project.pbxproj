@@ -627,6 +627,7 @@
 			baseConfigurationReference = 6D48C652DEA67F1BE2D4A78E /* Pods-demo_test_distribute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7VV5D378YQ;
@@ -653,8 +654,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weicilicai.distribute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6b537f28-7708-430f-8608-7e339f673860";
-				PROVISIONING_PROFILE_SPECIFIER = CLLDistributeTestProfile;
+				PROVISIONING_PROFILE = "4e0da802-58d0-40ef-bce6-e0e9bc5750d9";
+				PROVISIONING_PROFILE_SPECIFIER = Demo_Distribute_Profile;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
