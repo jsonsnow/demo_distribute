@@ -10,7 +10,7 @@
 	<key>teamID</key>
 	<string>7VV5D378YQ</string>
 	<key>method</key>
-	<string>In House</string>
+	<string>ad-hoc</string>
 	<key>compileBitcode</key>
 	<true/>
 	<key>uploadSymbols</key>
